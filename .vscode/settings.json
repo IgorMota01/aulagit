@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "com.agenda.model",
+        "com.agenda.factory",
+        "com.agenda.dao",
+        "com.agenda.main"
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "resources\\mysql-connector-5.1.18.jar",
+            "resources\\mysql-connector-java-8.0.30.jar"
+        ],
+        "exclude": [
+            "resources/mysql-connector-5.1.18.jar"
+        ]
+    }
+}
